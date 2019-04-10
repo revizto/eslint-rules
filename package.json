@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-eslint-elform-label-position",
+  "name": "eslint-plugin-elform-label-position",
   "version": "0.0.0",
   "description": "Require label-position for el-form component",
   "keywords": [
