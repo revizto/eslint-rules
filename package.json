@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-elform-label-position",
-  "version": "0.0.0",
-  "description": "Require label-position for el-form component",
+  "name": "revizto-eslint-plugin",
+  "version": "0.1",
+  "description": "Revizto eslint rules",
   "keywords": [
     "eslint",
     "eslintplugin",
