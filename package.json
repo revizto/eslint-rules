@@ -1,11 +1,12 @@
 {
-  "name": "revizto-eslint-plugin",
-  "version": "0.1",
+  "name": "eslint-plugin-revizto",
+  "version": "0.1.2",
   "description": "Revizto eslint rules",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "revizto"
   ],
   "author": "Ingverd",
   "main": "lib/index.js",
