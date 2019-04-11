@@ -7,45 +7,31 @@ Require label-position for el-form component
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i eslint --save-dev
+$ vue add @vue/cli-plugin-eslint
 ```
 
-Next, install `eslint-plugin-eslint-elform-label-position`:
+Next, add `eslint-plugin-revizto` to package.json devDependencies:
 
 ```
-$ npm install revizto-eslint-plugin --save-dev
+"eslint-plugin-revizto": "git+ssh://git@github.com:revizto/eslint-rules.git#0.1.6",
 ```
-
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-eslint-elform-label-position` globally.
 
 ## Usage
 
-Add `eslint-elform-label-position` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add to the your `.eslintrc`:
 
-```json
-{
-    "plugins": [
-        "eslint-plugin-revizto"
-    ]
+```js
+module.exports = {
+  root: true,
+  env: {
+    node: true
+  },
+  'extends': [
+    'plugin:revizto/recommended',
+    '@vue/typescript'
+  ],
+  parserOptions: {
+    parser: '@typescript-eslint/parser'
+  }
 }
 ```
-
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "eslint-plugin-revizto/rule-name": 2
-    }
-}
-```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
-
-
-
