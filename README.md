@@ -13,7 +13,7 @@ $ vue add @vue/cli-plugin-eslint
 Next, add `eslint-plugin-revizto` to package.json devDependencies:
 
 ```
-"eslint-plugin-revizto": "git+ssh://git@github.com:revizto/eslint-rules.git#0.1.6",
+npm i eslint-plugin-revizto --D
 ```
 
 ## Usage
