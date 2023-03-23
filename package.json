@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-revizto",
-  "version": "0.1.6",
+  "version": "0.1.9",
   "description": "Revizto eslint rules",
   "keywords": [
     "eslint",
